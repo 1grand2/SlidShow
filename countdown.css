@@ -1,0 +1,22 @@
+.title{font-family: 'Rampart One', cursive;}
+
+body {
+    text-align : center;
+  }
+  .main img {
+    width : 30%;
+    vertical-align: middle;
+  }
+  .navi {
+    text-align: center;
+  }
+  button {
+    margin: 10px auto;
+    font-size: 36px;/*元は24で、一行上は10px*/
+  }
+  .title {
+    font-size: xx-large;
+  }
+  .thumbnails .selected {
+    opacity: 1.0;
+  }
