@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー課題カウントダウン</title>
+    <link rel="stylesheet" href="css/countdown.css">
+   
+    <!-- 以下３行はフォントを設定 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <!-- 以下１行はアイコン用 -->
+    <script src="https://kit.fontawesome.com/2b2013a28b.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="title">
+      カウントダウン  
+      <i class="fa-solid fa-arrow-down-9-1"></i>
+    </div>
+ 
+    <div class="main">
+      <button type="button" onclick="left()">
+        ←
+      </button>
+<img src="https://3.bp.blogspot.com/-KEpe5ww6bIA/UNO2A04yTQI/AAAAAAAAIwY/yiMMHxRTXms/s1600/number_9.png">
+      <button type="button" onclick="right()">
+       →
+      </button>
+    </div>
+
+    <div class="control">
+      <button onclick="play()">再生</button>
+      <button onclick="stop()">停止</button>
+      <button onclick="reset()">リセット</button>
+    </div>
+    <script src="js/countdown.js"></script>
+   
+    <p class="lw">＊画像のサイズを調整する時間が取れなかった</p>
+
+  </body>
+</html>
